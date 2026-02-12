@@ -2,7 +2,7 @@ import { Calculator } from './components/Calculator';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4 transition-colors duration-300">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -189,7 +189,7 @@ const [state, dispatch] = useReducer(reducer, initialState);`}</code>
         </div>
 
         {/* Next Project */}
-        <div className="mt-8 bg-gradient-to-r from-green-500 to-teal-500 rounded-xl shadow-lg p-6 text-white">
+        <div className="mt-8 bg-linear-to-r from-green-500 to-teal-500 rounded-xl shadow-lg p-6 text-white">
           <h3 className="text-xl font-bold mb-2">🚀 Prochaine étape</h3>
           <p className="mb-4">
             Projet 7 : Chronomètre (useEffect, setInterval, cleanup)
