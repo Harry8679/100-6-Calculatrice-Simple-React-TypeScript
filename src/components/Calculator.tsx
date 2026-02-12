@@ -116,7 +116,7 @@ export const Calculator = () => {
 
         {/* Colonne droite - Historique */}
         <div>
-          <History entries={history} onClearHistory={clearHistory} />
+          <History entries={history} onClearHistory={clearHistory} onRestoreCalculation={() => {}} />
         </div>
       </div>
     </div>
